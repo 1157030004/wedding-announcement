@@ -1,0 +1,83 @@
+.countdown {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Noto Sans TC", sans-serif;
+}
+
+.openingCountdown {
+	background-color: #62799b;
+	color: white;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+	.openingCountdown {
+		font-size: 10px;
+		width: 210px;
+		margin: 0;
+	}
+}
+
+.socialCountdown {
+	display: flex;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+}
+
+@media (max-width: 800px) {
+	.socialCountdown {
+		font-size: 10px;
+	}
+}
+.socialIcon {
+	font-size: 30px;
+}
+
+.timer {
+	display: flex;
+	background-color: #62799b;
+	border-radius: 10px;
+	color: white;
+	padding: 10px;
+}
+.timerTime {
+	font-size: 30px;
+}
+
+@media (max-width: 800px) {
+	.timerTime {
+		font-size: 20px;
+	}
+}
+
+.timerText {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+@media (max-width: 800px) {
+	.timerText {
+		font-size: 10px;
+	}
+}
+
+ul {
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+}

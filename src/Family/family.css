@@ -1,0 +1,115 @@
+.family {
+	display: flex;
+	flex-direction: column;
+	font-family: "Noto Sans TC", sans-serif;
+}
+
+@media (max-width: 800px) {
+	.family {
+		margin-bottom: 130px;
+	}
+}
+
+.familyOpening {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+	.familyOpening {
+		flex-direction: column;
+	}
+}
+
+.familyOpeningText {
+	background-color: #62799b;
+	color: white;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 20px;
+	float: right;
+	width: 850px;
+}
+
+@media (max-width: 800px) {
+	.familyOpeningText {
+		width: 220px;
+		margin: 0px;
+		font-size: 10px;
+		text-align: center;
+	}
+}
+
+.familyImg {
+	width: 400px;
+}
+
+@media (max-width: 800px) {
+	.familyImg {
+		width: 100px;
+		margin-top: 20px;
+	}
+}
+
+.familyContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* margin: 50px; */
+}
+
+@media (max-width: 800px) {
+	.familyContainer {
+		margin-top: 10px;
+		font-size: 10px;
+	}
+}
+
+.familyItem {
+	border-radius: 99;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (max-width: 800px) {
+	.familyItem {
+		margin: 5px;
+		text-align: center;
+		height: 100px;
+	}
+}
+
+.img {
+	width: 15%;
+	background-color: #62799b;
+	border-radius: 20px;
+	margin: 5px;
+}
+
+@media (max-width: 800px) {
+	.img {
+		width: 100%;
+	}
+}
+
+.name {
+	font-weight: 600;
+}
+
+.parent {
+	font-weight: 400;
+}
+
+.location {
+	font-weight: 300;
+}
+
+@media (max-width: 800px) {
+	.parent,
+	.location {
+		font-size: 8px;
+		text-align: center;
+	}
+}

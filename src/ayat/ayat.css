@@ -1,0 +1,51 @@
+.ayat {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-family: "Noto Sans TC", sans-serif;
+}
+
+@media (max-width: 800px) {
+	.ayat {
+		margin: 20px;
+		flex-direction: column;
+	}
+}
+
+.ayatImg {
+	width: 400px;
+}
+
+@media (max-width: 800px) {
+	.ayatImg {
+		width: 100px;
+	}
+}
+
+.ayatText {
+	display: flex;
+	flex-direction: column;
+	background-color: #62799b;
+	color: white;
+	width: 850px;
+	border-radius: 20px;
+	margin: 20px;
+	padding: 20px;
+}
+
+@media (max-width: 800px) {
+	.ayatText {
+		text-align: center;
+		font-size: 10px;
+		width: 220px;
+	}
+}
+
+.ayaDesc {
+	margin-bottom: 20px;
+}
+
+.ayatNum {
+	padding-top: 10px;
+	font-weight: 600;
+}
