@@ -1,8 +1,8 @@
-import Ayat from "../../ayat/Ayat"
-import Countdown from "../../countdown/Countdown"
-import Doa from "../../doa/Doa"
-import Family from "../../Family/Family"
-import Header from "../../header/Header"
+import Ayat from "../../components/ayat/Ayat"
+import Countdown from "../../components/countdown/Countdown"
+import Doa from "../../components/doa/Doa"
+import Family from "../../components/family/Family"
+import Header from "../../components/header/Header"
 import "./home.css"
 
 const Home = () => {

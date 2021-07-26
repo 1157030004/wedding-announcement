@@ -1,0 +1,56 @@
+.top {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	position: sticky;
+	top: 0;
+	display: flex;
+	align-items: center;
+	font-family: "Noto Sans TC", sans-serif;
+}
+
+.topLeft,
+.topRight {
+	flex: 3;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.topCenter {
+	flex: 6;
+}
+
+@media (max-width: 800px) {
+	.topCenter {
+		flex: 10;
+	}
+}
+
+@media (max-width: 800px) {
+	.topLeft,
+	.topRight {
+		flex: 2;
+		font-size: 0px;
+	}
+}
+
+.topList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.topListItem {
+	margin-right: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+@media (max-width: 800px) {
+	.topListItem {
+		width: 100px;
+	}
+}
