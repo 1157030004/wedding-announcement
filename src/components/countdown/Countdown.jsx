@@ -2,6 +2,7 @@ import Timer from "react-countdown";
 import "./countdown.css"
 
 const Countdown = () => {
+    var end = new Date('08/08/2021 10:1 AM');
 
     const renderer = ({days, hours, minutes, seconds, completed}) =>{
         if(completed){
@@ -41,7 +42,7 @@ const Countdown = () => {
                 <span>@isnaromli90122</span>
             </div>
 
-                <Timer date={Date.now() + 1386800000} renderer={renderer} daysInHours={false} />
+                <Timer date={end} renderer={renderer} daysInHours={false} />
         </div>
     )
 }

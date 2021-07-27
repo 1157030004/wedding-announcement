@@ -1,4 +1,5 @@
 import { useState } from "react"
+import axios from "axios"
 import "./doa.css"
 
 const Doa = () => {
@@ -8,9 +9,13 @@ const Doa = () => {
     const handleSubmit = async (e) =>{
         e.preventDefault();
         try {
-            console.log("doamu berhasil disimpan")
+            await axios.post("/wishes", {
+                name,
+                desc: doa
+            })
+            window.location.replace("/wishboard")
         } catch (e) {
-            console.log("Error")
+            console.log(e)
         }
     }
 
