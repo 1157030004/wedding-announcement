@@ -9,7 +9,7 @@ const Doa = () => {
     const handleSubmit = async (e) =>{
         e.preventDefault();
         try {
-            await axios.post("https://darisna.herokuapp.com/api/wishes", {
+            await axios.post("/wishes", {
                 name,
                 desc: doa
             })

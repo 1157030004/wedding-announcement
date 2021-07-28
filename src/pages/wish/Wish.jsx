@@ -9,7 +9,7 @@ const Wish = () => {
 
     useEffect(() => {
         const fetchWishes = async ()  =>{
-            const res = await axios.get("https://darisna.herokuapp.com/api/wishes");
+            const res = await axios.get("/wishes");
             setWishes(res.data);
         }
         fetchWishes();
